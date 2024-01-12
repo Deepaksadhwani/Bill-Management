@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project name</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="form-section">
+        <h1 class="heading textcolor">Bill Management</h1>
+        <form class="form1" id="orders">
+          <label for="price" class="textcolor">Choose Price:</label>
+          <input type="number" class="price" name="price" id="add-price"/>
+
+          <label for="dish" class="textcolor">choose Dish:</label>
+          <input type="text" class="dish" name="dish" id="add-dish"/>
+
+          <label for="order" class="textcolor">Choose a table:</label>
+          <select name="tables" class="table" id="table">
+            <option value="table1">Table 1</option>
+            <option value="table2">Table 2</option>
+            <option value="table3">Table 3</option>
+          </select>
+
+          <button type="submit">Add to bill</button>
+        </form>
+      </div>
+      <div id="new-bills" class="bills">
+                                        
+        <h3>Table 1</h3>
+        <ul id="table1ul"></ul>
+        <br>
+        <hr/>
+        <br>
+       
+        <h3>Table 2</h3>
+        <ul id="table2ul"></ul>
+        <br>
+        <hr/>
+        <br>
+        
+        <h3>Table 3</h3>
+        <ul id="table3ul"></ul>
+                            
+    </div>
+    </div>
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
