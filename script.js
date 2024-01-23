@@ -2,8 +2,7 @@ import axios from 'https://cdn.jsdelivr.net/npm/axios@1.5.1/+esm'
 
 let count = 1;
 
-let url = "https://crudcrud.com/api/c5c260a052b6421389ea4153439a57e6/orders"
-
+let url = "https://crudcrud.com/api/60cc2f1057714b0b9d77509412bae724/orders"
 
 
 const form = document.getElementById("orders");
